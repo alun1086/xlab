@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>direction - DSML 411lab</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<style>
+div.title {
+    border: 1px solid #336600;
+	margin:10px;
+	padding:10px;
+	font-weight:bold;
+	background: #e6e6e6;
+	margin:38px 0 0 0;
+}
+div.pic{
+	float:left;
+}
+img.show{
+	height:150px;
+	width:auto;
+	float:left;
+	padding:12px;
+}
+img:hover.show{
+	height:400px;
+}
+a.link1{
+	color:#37a537;
+	font-size:5px;
+	text-decoration-line:none;
+}
+a:hover.link1{color:red;}
+a.link2{
+	color:#4a7ebb;
+	font-size:5px;
+	text-decoration-line:none;
+}
+a:hover.link2{color:red;}
+button.but{
+	background-color:#337ab7;
+	border-color:#2e6da4;
+	color:white;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding:6px 12px 6px 12px;
+	cursor: pointer;
+}
+.but:hover{background-color:#2e6da4;}
+</style>
+<body>
+	<div id="header">
+		<div class='language'><a class='language'href='direction.html'>中文</a> / English</div>
+		<a href="home_en.html" class="logo"><img src="images/logo.png" alt=""></a>
+		<ul>
+			<li>
+				<a href="en_home.html">news</a>
+			</li>
+			<li>
+				<a href="en_about.html">home</a>
+			</li>
+			<li class="selected">
+				<a href="en_direction.html">topics</a>
+			</li>
+			<li>
+				<a href="en_member.html">members</a>
+			</li>
+			<li>
+				<a href="en_research.html">publication</a>
+			</li>
+			<li>
+				<a href="en_access.html">connect us</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<ul>
+			<li>
+				<h1 style='border: 1px none powderblue;margin:10px;padding:10px;font-weight:bold;font-size=larger;text-shadow: 1px 1px 3px black;'>
+					Research Topics
+				</h1>
+				<hr style='border-width: 2px;'>
+				<img style='width:55%;margin:2% 0 0 13%;'src="images/topic.png">
+				<div style='float:right;width:30%;'>
+					<div style='color:#37a537;padding:10% 0 0 0;'>
+						<div style='font-size:16px;'>1. Embedded Memory<a href='#RRAM'class='link1'>......read more</a></div><br><br>			
+						<div style='font-size:16px;'>2. Neuromorphic Computing<a class='link1'>......read more</a></div> 					
+					</div>
+				</div>
+				<div style='color:#4a7ebb;margin:0 0 0 12.6%;line-height:25px;'>
+					<div style='font-size:16px;'>
+						1. FinFETs<a href='#FinFet'class='link2'>......read more</a>
+					</div> 
+					<div style='font-size:16px;'>2. Naonowire</div>
+					<div style='font-size:16px;'>
+						3. TFETs<a href='#TFET' class='link2'>......read more</a>
+					</div> 					
+					<div style='font-size:16px;'>4. NC-FETs</div> 
+				</div>
+			<li><a name='FinFet'></a>	
+				<div id='main'>
+					<button class="but"style='border-top-left-radius:4px;border-bottom-left-radius:4px;color:yellow;'>FinFet</button>
+					<button class="but" onclick='myclick(1)'>TFET</button>
+					<button class="but" onclick='myclick(2)'>RRAM</button>
+					<button class="but" onclick='myclick(3)'style='border-top-right-radius:4px;border-bottom-right-radius:4px;'>eNVM</button>
+				</div>				
+				
+				
+				<div class='title'>Frabrication and Design of New Generation Nano CMOS Devices FinFET Structure</div>
+				<div class="pic">
+					<img class='show'src="images/finfet.gif">
+				</div>
+				<div class='article'>
+					<p>
+						<ul>
+							<li>FinFET new structures are applied in the design of various format of System on Chip</li>
+							<li>do the analysis of the simulation of the latest devices and process and modelize it</li>
+							<li>Analysis of thermal electronic and the researches of physical mechanism</li>
+							<li>the researches of Self-heating thermal resistance</li>
+						    <li>the researches of CMOS devices with high-K oxide layer </li>
+						</ul>
+					</p>
+				</div>
+			
+			
+			
+			<li>
+				<a name='TFET'></a>
+				<div id='main'>
+					<button class="but"style='border-top-left-radius:4px;border-bottom-left-radius:4px;' onclick='myclick(0)'>FinFet</button>
+					<button class="but" style='color:yellow;'>TFET</button>
+					<button class="but" onclick='myclick(2)'>RRAM</button>
+					<button class="but" onclick='myclick(3)'style='border-top-right-radius:4px;border-bottom-right-radius:4px;'>eNVM</button>
+				</div>
+				<div class='title'>Simulation and Process of Low Power Tunneling Transistors Structure (Tunneling FET)</div>
+				<div class="pic">
+					<img class='show' src="https://dsmlnctu.files.wordpress.com/2015/06/tfet.png">
+				</div>
+				<div class='article'>
+					<p>
+						<ul>
+							<li>Change the electrical mechanism of traditional FET and break through the slope of traditional subcritical value (lower than 60mV/dec)
+							<li>Have lower leakage current and also can be applied in low power system. Our team continuously developes new tunneling structures and improves various performance
+							<li>Potential Structure
+						</ul>
+					</p>
+				</div>
+			<li>
+				<a name='RRAM'></a>
+				<div id='main'>
+					<button class="but"style='border-top-left-radius:4px;border-bottom-left-radius:4px;' onclick='myclick(0)'>FinFet</button>
+					<button class="but" onclick='myclick(1)'>TFET</button>
+					<button class="but" style='color:yellow;'>RRAM</button>
+					<button class="but" onclick='myclick(3)'style='border-top-right-radius:4px;border-bottom-right-radius:4px;'>eNVM</button>
+				</div>
+
+				<div class='title'>Reliability and Process of New Generation Resistive Random Access Memory</div>
+				<div class="pic">
+					<img class='show'src="https://dsmlnctu.files.wordpress.com/2015/06/rram.png">
+				</div>
+				<div class='article'>
+					<p>
+						<ul>
+							<li>Simple structure. Be expected that replace of high density flash memory
+							<li>Recently, the operating mechanism of RRAM are researching.
+							<li>Our team analyzes the operating mechanism of RRAM with RTN technique
+							<li>Potential Structure
+						</ul>
+					</p>
+				</div>
+			
+			<li>
+				<a name='eNVM'></a>
+				<div id='main'>
+					<button class="but"style='border-top-left-radius:4px;border-bottom-left-radius:4px;' onclick='myclick(0)'>FinFet</button>
+					<button class="but" onclick='myclick(1)'>TFET</button>
+					<button class="but" onclick='myclick(2)'>RRAM</button>
+					<button class="but" style='color:yellow;border-top-right-radius:4px;border-bottom-right-radius:4px;'>eNVM</button>
+				</div>
+
+				<div class='title'>Write Once Memory Design of Fuse Breakdown Mechanism of Dielectric Layer and Reliable Analysis of Device Array</div>
+				<div class="pic">
+					<img class='show'src="https://dsmlnctu.files.wordpress.com/2015/06/otp.png">
+				</div>
+				<div class='article'>
+					<div style='float:left;width:48%;line-height:30px;padding:0 15px 10px 10px;font-size:20px;'>
+						<h3>Fuse</h3>
+							select transistor + 1 resistor<br>
+							<b>Write</b>：electons migrated by large current<br>
+							<b>Advantages</b>：smaller size and larger current density<br>
+							<b>Disadvantages</b>：need high current and waste energy
+					</div>
+					<div style='float:left;width:48%;line-height:30px;padding:0 0 10px;font-size:20px;'>
+						<h3>Anti-Fuse</h3>
+						select transistor + 1 storage transistor<br>
+						<b>Write</b>：break through dielectric layer with large voltage between Gate and tunnel<br>
+						<b>Advantages</b>：do not need additional mask<br>
+						<b>Disadvantages</b>：need high voltage and waste energy
+					</div>
+				</div>	
+		</ul>		
+	</div>
+	
+	<script>
+		var x = document.getElementById("main").getElementsByTagName("button");
+		function myclick(n) {
+			location.href = "#"+x[n].innerHTML;
+			}
+	</script>
+	
+	<div id="footer">
+		<div>
+			<p>
+				<img src='images/IEEE.jpg'style='height:15px;margin:0 4px 0 0;'>
+				<a href='https://www.facebook.com/edsNCTUXNTHU/'target="_blank">IEEE Electron Device Society Taipei section 清交學生分會</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>

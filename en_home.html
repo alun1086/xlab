@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>home - DSML 411lab</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<style>
+p.news{line-height:20px;
+}
+img.p{
+	display:block;
+	margin:auto;
+}
+a{color : black;}
+a:hover {
+	color: blue;
+}
+.mySlides {
+	position:relative;
+	animation:animateleft 0.5s;
+}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+</style>
+<body>
+	<div id="header">
+		<div class='language'><a class='language'href='home.html'>中文</a> / English</div>
+		<a href="en_home.html" class="logo"><img src="images/logo.png" alt=""></a>
+		<ul>
+			<li class="selected">
+				<a href="en_home.html">news</a>
+			</li>
+			<li>
+				<a href="en_about.html">home</a>
+			</li>
+			<li>
+				<a href="en_direction.html">topics</a>
+			</li>
+			<li>
+				<a href="en_member.html">members</a>
+			</li>
+			<li>
+				<a href="en_research.html">publication</a>
+			</li>
+			<li>
+				<a href="en_access.html">connect us</a>
+			</li>
+		</ul>
+	</div>
+	<div id="body">
+		<ul>
+			<li>
+				<div class="contenttitle">Device Simulation and Measurement Lab</div>
+				<br>
+				<div style='border: 5px ridge #1045a3;  padding:10px; background:white'>
+					<h3 style='font-weight:bold;font-family:cursive;text-shadow:3px 3px 3px #cccccc;'>What's new!</h3>
+					<p class='news'>
+						Congradulations!! 2016.10 Prof. Steve S. Chung was awarded Taiwan Institute of Electrical and Electronic Engineering (TIEEE) excellent advising award of Ph.D disertation<hr>
+					</p>
+					<p class='news'>
+					<a href='https://dsmlnctu.files.wordpress.com/2015/06/e7acace585ade5b186e69c80e4bdb3e58d9ae7a2a9e5a3abe8ab96e69687e78d8ee5be97e78d8ee5908de596ae.pdf'
+						STYLE="text-decoration:none;"target="_blank">
+						Congradulations!! 2016.10 graduate E-Ray Hsieh was awarded Taiwan Institute of Electrical and Electronic Engineering (TIEEE) the excellent achievement award of Ph.D dissertation
+						<img src='images/link.png'>
+					</a>
+					</p><hr>
+					<p class='news'>
+						Congradulations!! 2016.6 graduate E-Ray Hsieh was awarded HCTU College of Electrical and Computer Engineering Outstanding graduate award<hr>
+					</p>
+					<p class='news'>
+					<a href='https://dsmlnctu.files.wordpress.com/2015/03/2016-irice-poster-compaign-e69d8ee4bf8ae891b3-e88e8ae7b4b9e58bb3e5afa6e9a997e5aea4-e4bfaee694b9.pdf'
+						STYLE="text-decoration:none;" target="_blank">
+						Congradulations!! DSML member J. W. Lee was awarded excellent poster of 2016 IRice
+						<img src='images/link.png'>
+					</a><br>
+						“Design of the Complementary Raised-drain TFET with Excellent Ion and SS
+						Performance for Ultra Low Voltage/Power Applications"<br>
+					</p><hr>
+					<p class='news'>
+					<a href='https://dsmlnctu.files.wordpress.com/2015/03/a-theoretical-and-experimental-evaluation-of-surface-roughness-variation-in-trigate-metal-oxide-semiconductor-field-effect-transistors.pdf'
+						STYLE="text-decoration:none;"target="_blank">
+						Congradulations!! DSML member M. R. Jiang was awarded honorable poster of 2016 IRice
+						<img src='images/link.png'>
+					</a><br>
+						“A theoretical and experimental evaluation of surface roughness variation intrigatemetal oxide semiconductor field effect transistors"<br>						
+					</p>
+					<p style='text-align:right'>
+						<a href='news.html'>read more</a>
+					</p>
+				</div>
+				<br>
+			
+
+			
+			<div>
+				<div class="mySlides">
+					<p class="title" style='line-height:25px;'>
+					[<a href='http://www.cna.com.tw/postwrite/Detail/215187.aspx#.WZZ31j6g-pp' STYLE="text-decoration:none;">Central News Agency(CNA) Report </a>]<br>
+					NCTUEE - the group of Prof. Steve S. Chung<br> 
+					excellent research was awarded the best dissertation of global colleages - VLSI Technology Symposium 
+					</p>
+					<img src="images/1.jpg" class='p'style="width:70%">
+				</div>
+				<div class="mySlides">
+					<p class="title" style='line-height:25px;'>
+					Congradulations!!<br>
+					In 2017 IEEE VLSI - elite international conference, <br>
+					our lab was awarded Highlights dissertation. Academic Ranking 1st!!
+					</p>
+					<img src="images/2.jpg" class='p'style="width:70%">
+				</div>
+				<div class="mySlides">
+					<p class="title" style='line-height:25px;'>
+					Congradulations!!<br>
+					DSML grauate-Dr. E-Ray Hsieh<br>
+					dissertation was awarded TIEEE、Extra excellent achievement award of 2016 Ph.D Dissertation、NCTU outstanding graduate award
+					</p>
+					<img src="images/3.jpg" class='p'style="width:70%">
+				</div>
+			</div>	
+			
+			<script type="text/javascript">
+				var myIndex = 0;
+				carousel();
+
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					   x[i].style.display = "none";  
+					}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 10000); // setTimeout(function,t(ms))
+				}
+			</script>	
+				
+		</ul>		
+	</div>			
+	<div id="footer">
+		<div>
+			<p>
+				<img src='images/IEEE.jpg'style='height:15px;margin:0 4px 0 0;'>
+				<a href='https://www.facebook.com/edsNCTUXNTHU/'target="_blank">IEEE Electron Device Society Taipei section 清交學生分會</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
